@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body{
+    background: linear-gradient(to bottom, #150833, #050558);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Goldman', sans-serif; /* Define a fonte principal */
+    font-weight: 700;                 /* Deixa em negrito */
+    font-size: 35px;
+    line-height: 1; 
+}
+
+h2 {
+    font-family: 'Goldman', sans-serif; /* Define a fonte principal */
+    font-weight: 600;                 /* Deixa em negrito */
+    font-size: 30px;
+    line-height: 1; 
+}
+
+h3 {
+    font-family: 'Goldman', sans-serif; /* Define a fonte principal */
+    font-weight: 600;                 /* Deixa em negrito */
+    font-size: 30px;
+    line-height: 1; 
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;                 /* Peso normal para o corpo do texto */
+    line-height: 1.6;                 /* Melhora a leitura do parágrafo */
+    font-size: 20px;
+}
+
+
+email{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; 
+    font-size: 20px;
+    line-height: 1;
+}
+
+
+
+div.main{
+    max-width: 1020px;
+    padding: 0px;
+    background-color: #eff7ff;
+}
+
+div.header{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 0px;
+}
+
+div.imghead{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-width: 0px 2px 0px 0px;
+    border-color: #07070f;
+    background-color: #5679b1;
+}
+
+img.imghead {
+    width: 100%;       /* A imagem ocupará os 100% dos 30% da coluna */
+    height: auto;
+    border-radius: 50%; /* Opcional: deixa a foto redonda, estilo perfil */
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #07070f;
+}
+.infohead p {
+    line-height: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.infohead {
+    padding: 20px;
+    align-content: center;
+    color: rgb(14, 13, 13);      /* Para contrastar com o fundo azul/preto */
+}
+
+div.git{
+    display: grid;
+    grid-template-columns: 100px 880px;
+    gap: 0px;
+    align-items: center;
+
+}
+
+div.card{
+    width: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #150833;
+    border-radius: 3%;
+    background-color: #5679b1;
+
+}
+
+.card p{
+    font-size: 25px;
+    margin: 10px 0px 20px 0px;
+}
+
+.card h3{
+    font-size: 35px;
+    margin: 20px 0px 10px 0px;
+}
+
+header{
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: #07070f;
+}
+
+main{
+    padding: 20px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #2c2c34;
+}
+
+footer p{
+    color: #eff7ff;
+    margin: 0px;
+}
+
+
+.grid-container {
+    display: grid;
+    /* Cria duas colunas com larguras iguais (1 fração cada) */
+    grid-template-columns: 1fr 1fr; 
+    
+    /* Espaço entre as colunas e as linhas */
+    gap: 20px; 
+    
+    /* Centraliza o conteúdo do grid */
+    justify-items: center; 
+    
+    /* Garante que o grid ocupe a largura da div main */
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Opcional: Centraliza o texto e a imagem dentro de cada quadradinho */
+.grid-container > div {
+    text-align: center;
+}
+
+div.linha{
+    display: flex;        /* Corrigido de flexbox para flex */
+    margin: 0 auto;       /* O "auto" nas laterais centraliza o bloco horizontalmente */
+    align-content: center;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #07070f;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
