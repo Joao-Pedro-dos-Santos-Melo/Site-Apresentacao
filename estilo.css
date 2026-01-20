@@ -48,9 +48,12 @@ email{
 
 
 div.main{
-    max-width: 1020px;
-    padding: 0px;
-    background-color: #eff7ff;
+    background-color: #f0f8ff; /* A cor clara que você usou */
+    max-width: 940px;         /* Impede que o site fique largo demais em monitores grandes */
+    margin: 40px auto;        /* Centraliza a div na tela e dá espaço em cima e embaixo */
+
+    border-radius: 12px;      /* Arredonda as quinas para um visual moderno */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5); /* Dá profundidade ao site */
 }
 
 div.header{
@@ -67,6 +70,7 @@ div.imghead{
     border-width: 0px 2px 0px 0px;
     border-color: #07070f;
     background-color: #5679b1;
+    border-radius: 12px 0px 0px 0px;
 }
 
 img.imghead {
@@ -124,7 +128,7 @@ header{
 }
 
 main{
-    padding: 20px;
+    padding: 30px 60px 30px 60px;
 }
 
 footer{
