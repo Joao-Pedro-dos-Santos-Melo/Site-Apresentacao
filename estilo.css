@@ -306,7 +306,7 @@ div.linha{
     
     button {
         width: 90%; /* Opcional: deixa o botão mais largo no celular para facilitar o clique */
-        max-width: 300px;
+        max-width: 450px;
         border-radius: 50px;
     }
 
