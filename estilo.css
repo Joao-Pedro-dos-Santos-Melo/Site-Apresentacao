@@ -296,4 +296,18 @@ div.linha{
         text-align: center;
     }
 
+    /* Centraliza o botão do certificado no celular */
+    .main p a {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    button {
+        width: 90%; /* Opcional: deixa o botão mais largo no celular para facilitar o clique */
+        max-width: 300px;
+        border-radius: 50px;
+    }
+
 }
